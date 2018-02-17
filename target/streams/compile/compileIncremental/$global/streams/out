@@ -1,0 +1,62 @@
+[0m[[0mdebug[0m] [0m[naha] Invalidating /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar: stamp changed from lastModified(1485187082000) to lastModified(1509141854000)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set(/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set(/media/jdukatz/storageDrive/HLT/IR/Watson/Watson.scala, /media/jdukatz/storageDrive/HLT/IR/Watson/StanfordIndexer.scala, /media/jdukatz/storageDrive/HLT/IR/Watson/LuceneIndexer.scala, /media/jdukatz/storageDrive/HLT/IR/Watson/JeopardyPlayer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/media/jdukatz/storageDrive/HLT/IR/Watson/Watson.scala, /media/jdukatz/storageDrive/HLT/IR/Watson/StanfordIndexer.scala, /media/jdukatz/storageDrive/HLT/IR/Watson/LuceneIndexer.scala, /media/jdukatz/storageDrive/HLT/IR/Watson/JeopardyPlayer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/media/jdukatz/storageDrive/HLT/IR/Watson/Watson.scala, /media/jdukatz/storageDrive/HLT/IR/Watson/StanfordIndexer.scala, /media/jdukatz/storageDrive/HLT/IR/Watson/LuceneIndexer.scala, /media/jdukatz/storageDrive/HLT/IR/Watson/JeopardyPlayer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 4 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 4 Scala sources to /media/jdukatz/storageDrive/HLT/IR/Watson/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.11.8[0m
+[0m[[0minfo[0m] [0m'compiler-interface' not yet compiled for Scala 2.11.8. Compiling...[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.11.8  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_51986f0d[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/jdukatz/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/jdukatz/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.15/xsbti/interface-0.13.15.jar:/tmp/sbt_7fe4e834/srcs/org.scala-sbt/compiler-interface/compiler-interface-0.13.15-sources.jar:/home/jdukatz/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.8.jar:/home/jdukatz/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/home/jdukatz/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar:/home/jdukatz/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/jdukatz/.ivy2/cache/jline/jline/jars/jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/GlobalHelpers.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_77bf1986/xsbt/ScaladocInterface.scala[0m
+[0m[[0minfo[0m] [0m  Compilation completed in 7.126 s[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 49f3df8, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/jdukatz/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/media/jdukatz/storageDrive/HLT/IR/Watson/target/scala-2.11/classes:/home/jdukatz/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/jars/lucene-analyzers-common-6.4.1.jar:/home/jdukatz/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-6.4.1.jar:/home/jdukatz/.ivy2/cache/org.apache.lucene/lucene-queryparser/jars/lucene-queryparser-6.4.1.jar:/home/jdukatz/.ivy2/cache/org.apache.lucene/lucene-queries/jars/lucene-queries-6.4.1.jar:/home/jdukatz/.ivy2/cache/org.apache.lucene/lucene-sandbox/jars/lucene-sandbox-6.4.1.jar:/home/jdukatz/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.4-models.jar:/home/jdukatz/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.4.jar:/home/jdukatz/.ivy2/cache/com.io7m.xom/xom/jars/xom-1.2.10.jar:/home/jdukatz/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.3.03.jar:/home/jdukatz/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.8.0.jar:/home/jdukatz/.ivy2/cache/xalan/xalan/jars/xalan-2.7.0.jar:/home/jdukatz/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.1.jar:/home/jdukatz/.ivy2/cache/de.jollyday/jollyday/jars/jollyday-0.4.7.jar:/home/jdukatz/.ivy2/cache/javax.xml.bind/jaxb-api/jars/jaxb-api-2.2.7.jar:/home/jdukatz/.ivy2/cache/com.googlecode.efficient-java-matrix-library/ejml/jars/ejml-0.23.jar:/home/jdukatz/.ivy2/cache/javax.json/javax.json-api/bundles/javax.json-api-1.0.jar:/home/jdukatz/.ivy2/cache/edu.stanford.nlp/stanford-parser/jars/stanford-parser-3.4.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 10.844104752 s[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
